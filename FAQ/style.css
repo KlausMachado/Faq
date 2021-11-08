@@ -85,6 +85,18 @@ main {
   padding-bottom: 15px;
 }
 
+.container .items .item.active h2 {
+  font-weight: 700;
+}
+
+.container .items .item.active .answer {
+  display: block;
+}
+
+.container .items .item.active {
+  background-image: url(./image/icone-seta-pra-cima.png);
+}
+
 @media (max-width: 750px) {
   .container {
     flex-direction: column;
@@ -117,3 +129,10 @@ main {
     margin: 30px 0;
   }
 }
+
+@media (max-width: 425px) {
+  .container {
+    height: 540px;
+  }
+}
+
